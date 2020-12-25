@@ -42,7 +42,7 @@
             // 
             this.Plaintext.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Plaintext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Plaintext.Location = new System.Drawing.Point(125, 168);
+            this.Plaintext.Location = new System.Drawing.Point(129, 136);
             this.Plaintext.Multiline = false;
             this.Plaintext.Name = "Plaintext";
             this.Plaintext.Size = new System.Drawing.Size(223, 50);
@@ -53,7 +53,7 @@
             // 
             this.Ciphertext.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Ciphertext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ciphertext.Location = new System.Drawing.Point(445, 168);
+            this.Ciphertext.Location = new System.Drawing.Point(449, 136);
             this.Ciphertext.Multiline = false;
             this.Ciphertext.Name = "Ciphertext";
             this.Ciphertext.Size = new System.Drawing.Size(223, 50);
@@ -64,7 +64,7 @@
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(318, 309);
+            this.button3.Location = new System.Drawing.Point(318, 285);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(152, 52);
             this.button3.TabIndex = 5;
@@ -76,7 +76,7 @@
             // 
             this.Rotation.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Rotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rotation.Location = new System.Drawing.Point(207, 237);
+            this.Rotation.Location = new System.Drawing.Point(207, 200);
             this.Rotation.Multiline = false;
             this.Rotation.Name = "Rotation";
             this.Rotation.Size = new System.Drawing.Size(49, 37);
@@ -89,7 +89,7 @@
             this.textBox1.BackColor = System.Drawing.SystemColors.Control;
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(173, 113);
+            this.textBox1.Location = new System.Drawing.Point(177, 81);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(137, 34);
@@ -103,7 +103,7 @@
             this.textBox2.BackColor = System.Drawing.SystemColors.Control;
             this.textBox2.Enabled = false;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(491, 113);
+            this.textBox2.Location = new System.Drawing.Point(495, 81);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(137, 34);
@@ -117,7 +117,7 @@
             this.textBox3.BackColor = System.Drawing.SystemColors.Control;
             this.textBox3.Enabled = false;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(164, 280);
+            this.textBox3.Location = new System.Drawing.Point(164, 250);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(134, 27);
@@ -129,7 +129,7 @@
             // 
             this.CLR.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CLR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CLR.Location = new System.Drawing.Point(567, 365);
+            this.CLR.Location = new System.Drawing.Point(567, 335);
             this.CLR.Name = "CLR";
             this.CLR.Size = new System.Drawing.Size(101, 37);
             this.CLR.TabIndex = 10;

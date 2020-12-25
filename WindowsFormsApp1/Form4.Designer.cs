@@ -151,7 +151,7 @@
             this.Controls.Add(this.Ciphertext);
             this.Controls.Add(this.Plaintext);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Pad";
             this.ResumeLayout(false);
             this.PerformLayout();
 
