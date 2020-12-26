@@ -36,15 +36,9 @@ namespace WindowsFormsApp1
                 }
             }
             int numpad;
-            if (a % 37 == 0 && a != 0)
-                numpad = 37;
-            else
-                numpad = a%37;
+            numpad = (a % 37 == 0 && a != 0) ? 37 : a % 37;
             char ch;
-            if (numpad == 37)
-                ch = m[0]; //choose 'a' for 37 padded
-            else
-                ch = m[numpad]; //choose corresponding symbol for 1-36
+            ch = (numpad == 37) ? m[0] : m[numpad]; //choose 'a' for 37 padded or corresponding symbol for 1-36
 
             for (int j = numpad; j > 0; j--)
             {
